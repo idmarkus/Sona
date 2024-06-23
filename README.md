@@ -22,8 +22,6 @@ Generate constant tone and midi (as closest root + pitchbend) at set frequency. 
 
 ## Build with CMake
 
-_On Windows, I recommend clang-cl, but MSVC should also work fine for just this project._
-
 * Install JUCE as a system library, using vcpkg, or pull its [git repo](https://github.com/juce-framework/JUCE) into the project directory
 * If installed system wide, swap the comments in `CMakeLists.txt:15` to use FindPackage
 * Optionally build the plugin host in JUCE/extras, refer to the JUCE manual.
